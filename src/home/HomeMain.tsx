@@ -1,10 +1,11 @@
 import EcommerceTopbar from "../components/navbar"
-import ContentHome from "./HomeContent"
+import { ContentHome1,ContentHome2 } from "./HomeContent"
 export default function Home() {
     return(
         <>
             <EcommerceTopbar />
-            <ContentHome />
+            <ContentHome1 />
+            <ContentHome2 />
         </>
     )
 }
